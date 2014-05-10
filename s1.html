@@ -1,0 +1,12 @@
+<form id="ContactForm" action="email.php" method="post">  
+<div>  
+<label><span class="input"><input name="name" type="text" id="name" onFocus="if(this.value =='Your  Name:' ) this.value=''" onBlur="if(this.value=='') this.value='Your  Name:'" value="Your  Name:" /></span></label>  
+<label><span class="input"><input name="email" type="text" id="email" onFocus="if(this.value =='Your E-mail:' ) this.value=''" onBlur="if(this.value=='') this.value='Your E-mail:'" value="Your E-mail:" /></span></label>  
+<label><span class="input"><input name="state" type="text" id="state" onFocus="if(this.value =='Your State:' ) this.value=''" onBlur="if(this.value=='') this.value='Your State:'" value="Your State:" /></span></label>  
+<span class="textarea"><textarea name="comments" id="comments" onFocus="if(this.value =='Your Message:' ) this.value=''" onBlur="if(this.value=='') this.value='Your Message:'"  >Your Message:</textarea></span>  
+</div>  
+<div class="alignright">  
+<a href="#" class="link" onClick="document.getElementById('ContactForm').reset()"><span><span> clear</span></span></a>  
+<a href="mailto:rajasingh012@gmail.com" class="link" onClick="document.getElementById('ContactForm').submit()"><span><span >send</span></span></a>  
+</div>  
+</form>

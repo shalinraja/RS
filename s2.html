@@ -1,0 +1,22 @@
+<h2>Contact <span>Form</span></h2>
+<!-- disabled first form tag. Use only one form tag per form. -->
+<.form id="ContactForm">
+<!-- added id="ContactForm" to remaining form tag -->
+<form id="ContactForm" action="mailto:myaccount@mydomain.com">
+<div>
+<div class="wrapper">
+<span>Your Name:</span> <input type="text" class="input" >
+</div>
+<div class="wrapper">
+<span>Your E-mail:</span> <input type="text" class="input" >
+</div>
+<div class="textarea_box"><span>Your Message:</span>
+<!-- added " after the row value 1 -->
+<textarea name="textarea" cols="1" rows="1"></textarea>
+</div>
+<!-- added > after submit()" -->
+<a href="#" class="button" onClick="document.getElementById('ContactForm').submit()"><strong>Send</strong></a>
+
+<a href="#" class="button" onClick="document.getElementById('ContactForm').reset()"><strong>Clear</strong></a>
+</div>
+</form>
